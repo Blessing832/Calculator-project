@@ -4,41 +4,45 @@
   <meta charset="UTF-8">
   <title>Simple Calculator</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- Link to CSS -->
+  <!-- Link to external stylesheet -->
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+  <!-- Wrapper to centre the calculator on the page -->
   <div class="calc-wrapper">
+    <!-- Main calculator container -->
     <div class="calculator">
+      <!-- Display area for current input and result -->
       <div id="display" class="display">0</div>
 
+      <!-- All calculator buttons grouped in a grid -->
       <div class="keys">
-        <!-- Row 1 -->
+        <!-- Top row: clear, backspace, percentage, divide -->
         <button class="btn btn-grey">C</button>
         <button class="btn btn-grey">⌫</button>
         <button class="btn btn-grey">%</button>
         <button class="btn btn-operator">/</button>
 
-        <!-- Row 2 -->
+        <!-- Second row: 7, 8, 9, multiply -->
         <button class="btn">7</button>
         <button class="btn">8</button>
         <button class="btn">9</button>
         <button class="btn btn-operator">*</button>
 
-        <!-- Row 3 -->
+        <!-- Third row: 4, 5, 6, minus -->
         <button class="btn">4</button>
         <button class="btn">5</button>
         <button class="btn">6</button>
         <button class="btn btn-operator">-</button>
 
-        <!-- Row 4 -->
+        <!-- Fourth row: 1, 2, 3, plus -->
         <button class="btn">1</button>
         <button class="btn">2</button>
         <button class="btn">3</button>
         <button class="btn btn-operator">+</button>
 
-        <!-- Row 5 -->
+        <!-- Bottom row: wide 0, decimal point, equals -->
         <button class="btn btn-zero">0</button>
         <button class="btn">.</button>
         <button class="btn btn-equals">=</button>
@@ -46,7 +50,7 @@
     </div>
   </div>
 
-  <!-- Link to JavaScript -->
+  <!-- Link to JavaScript file for calculator logic -->
   <script src="script.js"></script>
 </body>
 </html>
